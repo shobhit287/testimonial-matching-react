@@ -1,0 +1,55 @@
+.card_info{
+    background-color: white;
+    box-shadow: 0px 5px 5px 0px;
+    padding:5%;
+    margin:5%;
+    display:flex ;
+    height:70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 300px;
+    border-radius: 1000px;
+}
+h3{
+    font-size: 2rem;
+}
+.pos{
+    color:#c4b5fd;
+    font-size: 1.2rem;
+}
+.info p{
+  color:#64748b;
+  font-size: 1.5rem;
+}
+.icon{
+    font-size: 3rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.switch{
+    font-size: 3rem;
+    border: none;
+    color:#A78BFA;
+    margin: 30%;
+    background-color: transparent;
+}
+.switch:hover{
+    color:#9780db;
+    cursor: pointer;
+}
+.surprise button{
+    font-size: 1.5rem;
+    padding:15px 5px;
+    border-radius: 20px;
+}
+.surprise button:hover{
+    background-color: #c4b5fd;
+    cursor: pointer;
+}
